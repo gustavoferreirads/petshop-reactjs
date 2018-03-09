@@ -1,0 +1,87 @@
+/*Fonts extracted from Avenir.ttc to make it easier to use*/
+@font-face {
+    font-family: Avenir-Black;
+    src: url(./fonts/Avenir-Black.ttf);
+}
+
+@font-face {
+    font-family: Avenir-Heavy;
+    src: url(./fonts/Avenir-Heavy.ttf);
+}
+
+@font-face {
+    font-family: Avenir-Medium;
+    src: url(./fonts/Avenir-Medium.ttf);
+}
+
+@font-face {
+    font-family: Avenir-Roman;
+    src: url(./fonts/Avenir-Roman.ttf);
+}
+
+@font-face {
+    font-family: DIN-Condensed-Bold;
+    src: url(./fonts/DINCondensedBold.ttf);
+}
+
+body {
+    background: #F5F7FA;
+    margin: 0;
+    font-family: Avenir-Medium;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 0;
+}
+
+.content-body {
+    display: flex;
+}
+
+.page-wrapper {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    padding-left: 2.6em;
+    margin-top: 2.1em;
+}
+
+.btn {
+    color: #fff;
+    background-color: #09D0A3;
+    margin-right: 0.7em;
+    padding: 6px;
+    border-radius: 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: DIN-Condensed-Bold;
+    cursor: pointer;
+}
+
+.btn-default {
+    min-width: 80px;
+}
+
+.btn-md {
+    min-width: 104px;
+}
+
+.btn-inactive {
+    background-color: rgba(9, 208, 163, 0.5) !important;
+}
+
+a:-webkit-any-link {
+    cursor: pointer !important;
+    text-decoration: none !important;
+}
+
+.btn-inactive:hover {
+    background-color: #09D0A3 !important;
+}
+
+

@@ -1,0 +1,85 @@
+.navigation {
+    height: 100vh;
+    width: 0;
+    background-color: #09CFA3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /*display: none;*/
+}
+
+@media (min-width: 768px) {
+    .navigation{
+        /*display: block;*/
+        width: 121px;
+    }
+}
+
+.navigation.opened {
+    width: 121px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav-header {
+    padding: 20px;
+}
+
+.logo-element {
+    background-image: url(icons/ic_logo.svg);
+    width: 63px;
+    height: 54px;
+}
+
+.menu-content {
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.menu-content > a {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ic {
+    width: 24px;
+    height: 24px;
+}
+
+.ic-dashboard {
+    background-image: url(icons/ic_dashboard.svg);
+}
+
+.ic-cad {
+    background-color: #049C7A;
+    -webkit-mask-image: url(icons/ic_cadastro.svg);
+    mask-image: url(icons/ic_cadastro.svg);
+}
+
+.nav-label {
+    font-size: 12px;
+    color: #049C7A;
+    margin-top: 5px;
+}
+
+.active .nav-label {
+    color: #fff;
+}
+
+.active .ic {
+}
+
+a:focus, a:hover {
+    color: #fff !important;
+    text-decoration: none !important;
+}

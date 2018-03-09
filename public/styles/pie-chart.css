@@ -1,0 +1,55 @@
+.pie-container{
+    position: absolute;
+    left: 90px;
+    margin-top: 1em;
+}
+
+@media (min-width: 768px) {
+    .pie-container {
+        left: 77px;
+    }
+
+}
+
+.p1,.p2,.p3 {
+    clip: rect(0px,120px,120px,60px);
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.p1 {
+    margin-left: 2.5px;
+}
+
+.p2 {
+    transform: rotate(-180deg);
+    margin-right: 2.5px;
+}
+.p3 {
+    clip: rect(78px,120px,120px,60px);
+    transform: rotate(-180deg);
+}
+
+.separator-pie {
+    margin-top: -5px;
+    margin-right: -10px;
+    background-color: #f5f7fa;
+    width: 3px;
+    height: 51px;
+    transform: rotate(-70deg);
+    position: absolute;
+    left: 25px;
+    top: 27px;
+}
+
+.ball {
+    width: 90px;
+    height: 90px;
+    border-radius: 100%;
+    background-color: #f5f7fa;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}

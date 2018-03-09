@@ -1,0 +1,55 @@
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #737689;
+    font-size: 14px;
+    margin-bottom: 2em;
+    margin-right: 20px;
+}
+
+.item.off {
+    color: rgba(115, 118, 137, 0.5);
+}
+
+.ic-md {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ic-total {
+    background-image: url(icons/ic_totais.svg);
+    color: white;
+}
+
+.ic-customer {
+    background-image: url(icons/ic_clientes.svg);
+    -webkit-mask-image: url(icons/ic_clientes.svg) no-repeat 50% 50%;;
+    mask-image: url(icons/ic_clientes.svg) no-repeat 50% 50%;;
+}
+
+.content {
+    padding-top: 3em;
+}
+
+.content-link {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-left: 1.6em !important;
+
+}
+@media (min-width: 768px) {
+    .content-link {
+        flex-direction: column;
+    }
+}
+
+.item span {
+    margin-left: 0.5em;
+    font-family: Avenir-Heavy;
+}

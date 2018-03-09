@@ -1,0 +1,119 @@
+
+.header-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px solid #d9dbe0;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-family: DIN-Condensed-Bold;
+    color: #737689;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .title {
+        margin-top: 0;
+    }
+}
+
+.sub-title {
+    font-family: Avenir-Medium;
+    color: #09D0A3;
+    font-size: 35px;
+    display: flex;
+}
+
+.ad-sub {
+    padding-top: 10px;
+}
+
+.info-service, .info-revenue-expenditure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-service {
+    margin-top: 11em;
+}
+
+.info-service > div, .info-revenue-expenditure > div{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.content-legend {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+    font-size: 10px;
+    font-family: Avenir-Roman;
+}
+
+.legend {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.total-item {
+    width: 50%;
+    text-align: right;
+    color: #4A4A4A;
+    font-size: 12px;
+    font-family: Avenir-Black;
+}
+
+.bath-and-cough {
+    background-color: #cc2bd3;
+}
+
+.consultations {
+    background-color: #792ad5;
+}
+
+.medicines {
+    background-color: #3a86fe;
+}
+
+.revenue {
+    background-color: #00ddaa;
+}
+
+.expenditure {
+    background-color: #ff4f64;
+}
+
+.total-service {
+    color: #4A4A4A;
+    font-family: Avenir-Black;
+    display: flex;
+    margin-top: 10px;
+}
+
+.total-service > div {
+    width: 50%;
+}
+
+.total-service > div:nth-child(1) {
+    font-size: 10px;
+}
+
+.total-service > div:nth-child(2) {
+    text-align: right;
+    font-size: 12px;
+}
+
+.info-revenue-expenditure{
+    margin-top: 8px;
+}
